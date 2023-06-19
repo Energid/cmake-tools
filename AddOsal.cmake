@@ -44,8 +44,8 @@ if (NOT TARGET osal)
     include(FetchContent)
     FetchContent_Declare(
       osal
-      GIT_REPOSITORY      https://github.com/rtlabs-com/osal.git
-      GIT_TAG             552713d
+      GIT_REPOSITORY      https://github.com/Energid/osal.git
+      GIT_TAG             chli-canopen_master_layer
       )
     FetchContent_GetProperties(osal)
     if(NOT osal_POPULATED)
